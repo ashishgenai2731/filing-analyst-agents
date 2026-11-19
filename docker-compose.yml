@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  # Caching Layer
+  redis:
+    image: redis:7-alpine
+    container_name: filing_agents_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  # FastAPI: v1 workflow + v2 multi-agent system
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: filing_agents_api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      # Overrides localhost to resolve Redis service by container name within the docker network
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      # Ollama runs on the Mac, not in Docker. Inside a container "localhost" is the container
+      # itself, so point the agent at the host machine instead.
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - CORPUS_PATH=/app/data/edgar/corpus.jsonl
+    extra_hosts:
+      # Docker Desktop defines host.docker.internal itself; Linux and Colima need this line.
+      - "host.docker.internal:host-gateway"
+    volumes:
+      # The BM25 corpus (~47 MB, git-ignored) and the filings manifest stay on the Mac and are
+      # mounted read-only; without them the API silently runs dense-only search.
+      - ./data/edgar/corpus.jsonl:/app/data/edgar/corpus.jsonl:ro
+      - ./data/edgar/filings.jsonl:/app/data/edgar/filings.jsonl:ro
+    depends_on:
+      redis:
+        condition: service_healthy
+
+volumes:
+  redis_data:

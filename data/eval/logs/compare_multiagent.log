@@ -1,0 +1,175 @@
+00:54:40 INFO    [CMP-LOOK-01] src.multiagent.agents: plan: ['ORCL', 'PG'] fiscal 2025, calculation=compare
+00:54:40 INFO    [CMP-LOOK-01] src.multiagent.tools: MCP tools discovered: ['execute_python_calc', 'get_financial_metric', 'list_metrics']
+00:54:40 INFO    [CMP-LOOK-01] src.multiagent.tools: MCP tools discovered: ['execute_python_calc', 'get_financial_metric', 'list_metrics']
+00:54:54 INFO    [CMP-LOOK-01] src.multiagent.agents: research[PG] 14.6s: 1 tool calls, found {'rd': 2100.0}
+00:55:01 INFO    [CMP-LOOK-01] src.multiagent.agents: research[ORCL] 21.0s: 1 tool calls, found {'rd': 9860.0}
+00:55:01 INFO    [CMP-LOOK-01] src.multiagent.agents: route #2: quant (valid: quant; forced)
+00:55:12 INFO    [CMP-LOOK-01] src.multiagent.agents: quant 11.4s: values={'ORCL': 9860.0, 'PG': 2100.0} winner=ORCL sandbox=SUCCESS: {'ORCL': 9860, 'PG': 2100}
+00:55:12 INFO    [CMP-LOOK-01] src.multiagent.agents: audit passed
+00:55:12 INFO    [CMP-LOOK-01] src.multiagent.agents: route #3: write (valid: write; forced)
+00:55:19 INFO    [CMP-LOOK-01] src.multiagent.agents: answer: winner ORCL, values {'ORCL': 9860.0, 'PG': 2100.0}, audit passed
+00:55:19 INFO    [CMP-LOOK-01] __main__: CMP-LOOK-01: correct | values ✅ winner ✅ | structured ✅ | 47.9s
+00:55:22 INFO    [CMP-LOOK-02] src.multiagent.agents: plan: ['QCOM', 'PFE'] fiscal 2025, calculation=compare
+00:55:37 INFO    [CMP-LOOK-02] src.multiagent.agents: research[PFE] 15.0s: 1 tool calls, found {'rd': 10437.0}
+00:55:44 INFO    [CMP-LOOK-02] src.multiagent.agents: research[QCOM] 22.0s: 1 tool calls, found {'rd': 9042.0}
+00:55:44 INFO    [CMP-LOOK-02] src.multiagent.agents: route #2: quant (valid: quant; forced)
+00:55:59 INFO    [CMP-LOOK-02] src.multiagent.agents: quant 14.9s: values={'QCOM': 9042.0, 'PFE': 10437.0} winner=PFE sandbox=SUCCESS: {'QCOM': 9042, 'PFE': 10437}
+00:55:59 INFO    [CMP-LOOK-02] src.multiagent.agents: audit passed
+00:55:59 INFO    [CMP-LOOK-02] src.multiagent.agents: route #3: write (valid: write; forced)
+00:56:07 INFO    [CMP-LOOK-02] src.multiagent.agents: answer: winner PFE, values {'QCOM': 9042.0, 'PFE': 10437.0}, audit passed
+00:56:07 INFO    [CMP-LOOK-02] __main__: CMP-LOOK-02: correct | values ✅ winner ✅ | structured ✅ | 48.2s
+00:56:11 INFO    [CMP-LOOK-03] src.multiagent.agents: plan: ['CRM', 'WMT'] fiscal 2025, calculation=compare
+00:56:28 INFO    [CMP-LOOK-03] src.multiagent.agents: research[CRM] 17.7s: 1 tool calls, found {'net_income': 6197.0}
+00:56:38 INFO    [CMP-LOOK-03] src.multiagent.agents: research[WMT] 27.1s: 1 tool calls, found {'net_income': 19436.0}
+00:56:38 INFO    [CMP-LOOK-03] src.multiagent.agents: route #2: quant (valid: quant; forced)
+00:56:55 INFO    [CMP-LOOK-03] src.multiagent.agents: quant 17.6s: values={'CRM': 6197.0, 'WMT': 19436.0} winner=WMT sandbox=SUCCESS: {'CRM': 6197, 'WMT': 19436}
+00:56:55 INFO    [CMP-LOOK-03] src.multiagent.agents: audit passed
+00:56:55 INFO    [CMP-LOOK-03] src.multiagent.agents: route #3: write (valid: write; forced)
+00:57:06 INFO    [CMP-LOOK-03] src.multiagent.agents: answer: winner WMT, values {'CRM': 6197.0, 'WMT': 19436.0}, audit passed
+00:57:06 INFO    [CMP-LOOK-03] __main__: CMP-LOOK-03: correct | values ✅ winner ✅ | structured ✅ | 58.4s
+00:57:10 INFO    [CMP-LOOK-04] src.multiagent.agents: plan: ['MRK', 'PEP'] fiscal 2024, calculation=compare
+00:57:29 INFO    [CMP-LOOK-04] src.multiagent.agents: research[MRK] 19.3s: 1 tool calls, found {'revenue': 64168.0}
+00:57:37 INFO    [CMP-LOOK-04] src.multiagent.agents: research[PEP] 27.4s: 1 tool calls, found {'revenue': 91854.0}
+00:57:37 INFO    [CMP-LOOK-04] src.multiagent.agents: route #2: quant (valid: quant; forced)
+00:57:52 INFO    [CMP-LOOK-04] src.multiagent.agents: quant 15.0s: values={'MRK': 64168.0, 'PEP': 91854.0} winner=PEP sandbox=SUCCESS: {'MRK': 64168, 'PEP': 91854}
+00:57:52 INFO    [CMP-LOOK-04] src.multiagent.agents: audit passed
+00:57:52 INFO    [CMP-LOOK-04] src.multiagent.agents: route #3: write (valid: write; forced)
+00:58:02 INFO    [CMP-LOOK-04] src.multiagent.agents: answer: winner PEP, values {'MRK': 64168.0, 'PEP': 91854.0}, audit passed
+00:58:02 INFO    [CMP-LOOK-04] __main__: CMP-LOOK-04: correct | values ✅ winner ✅ | structured ✅ | 56.3s
+00:58:05 INFO    [CMP-LOOK-05] src.multiagent.agents: plan: ['QCOM', 'CAT'] fiscal 2025, calculation=compare
+00:58:22 INFO    [CMP-LOOK-05] src.multiagent.agents: research[QCOM] 16.3s: 1 tool calls, found {'revenue': 44284.0}
+00:58:29 INFO    [CMP-LOOK-05] src.multiagent.agents: research[CAT] 24.1s: 1 tool calls, found {'revenue': 67589.0}
+00:58:29 INFO    [CMP-LOOK-05] src.multiagent.agents: route #2: quant (valid: quant; forced)
+00:58:45 INFO    [CMP-LOOK-05] src.multiagent.agents: quant 15.1s: values={'QCOM': 44284.0, 'CAT': 67589.0} winner=CAT sandbox=SUCCESS: {'QCOM': 44284, 'CAT': 67589}
+00:58:45 INFO    [CMP-LOOK-05] src.multiagent.agents: audit passed
+00:58:45 INFO    [CMP-LOOK-05] src.multiagent.agents: route #3: write (valid: write; forced)
+00:58:53 INFO    [CMP-LOOK-05] src.multiagent.agents: answer: winner CAT, values {'QCOM': 44284.0, 'CAT': 67589.0}, audit passed
+00:58:53 INFO    [CMP-LOOK-05] __main__: CMP-LOOK-05: correct | values ✅ winner ✅ | structured ✅ | 51.2s
+00:58:56 INFO    [CMP-LOOK-06] src.multiagent.agents: plan: ['HD', 'MCD'] fiscal 2025, calculation=compare
+00:59:15 INFO    [CMP-LOOK-06] src.multiagent.agents: research[MCD] 18.1s: 1 tool calls, found {'cfo': 10551.0}
+00:59:23 INFO    [CMP-LOOK-06] src.multiagent.agents: research[HD] 26.3s: 1 tool calls, found {'cfo': 16325.0}
+00:59:23 INFO    [CMP-LOOK-06] src.multiagent.agents: route #2: quant (valid: quant; forced)
+00:59:37 INFO    [CMP-LOOK-06] src.multiagent.agents: quant 14.4s: values={'HD': 16325.0, 'MCD': 10551.0} winner=HD sandbox=SUCCESS: {'HD': 16325, 'MCD': 10551}
+00:59:37 INFO    [CMP-LOOK-06] src.multiagent.agents: audit passed
+00:59:37 INFO    [CMP-LOOK-06] src.multiagent.agents: route #3: write (valid: write; forced)
+00:59:46 INFO    [CMP-LOOK-06] src.multiagent.agents: answer: winner HD, values {'HD': 16325.0, 'MCD': 10551.0}, audit passed
+00:59:46 INFO    [CMP-LOOK-06] __main__: CMP-LOOK-06: correct | values ✅ winner ✅ | structured ✅ | 52.7s
+00:59:49 INFO    [CMP-LOOK-07] src.multiagent.agents: plan: ['ADBE', 'ORCL'] fiscal 2024, calculation=compare
+01:00:05 INFO    [CMP-LOOK-07] src.multiagent.agents: research[ORCL] 16.2s: 1 tool calls, found {'net_income': 10467.0}
+01:00:13 INFO    [CMP-LOOK-07] src.multiagent.agents: research[ADBE] 23.9s: 1 tool calls, found {'net_income': 5560.0}
+01:00:13 INFO    [CMP-LOOK-07] src.multiagent.agents: route #2: quant (valid: quant; forced)
+01:00:28 INFO    [CMP-LOOK-07] src.multiagent.agents: quant 15.2s: values={'ADBE': 5560.0, 'ORCL': 10467.0} winner=ORCL sandbox=SUCCESS: {'ADBE': 5560, 'ORCL': 10467}
+01:00:28 INFO    [CMP-LOOK-07] src.multiagent.agents: audit passed
+01:00:28 INFO    [CMP-LOOK-07] src.multiagent.agents: route #3: write (valid: write; forced)
+01:00:37 INFO    [CMP-LOOK-07] src.multiagent.agents: answer: winner ORCL, values {'ADBE': 5560.0, 'ORCL': 10467.0}, audit passed
+01:00:37 INFO    [CMP-LOOK-07] __main__: CMP-LOOK-07: correct | values ✅ winner ✅ | structured ✅ | 51.2s
+01:00:40 INFO    [CMP-LOOK-08] src.multiagent.agents: plan: ['ORCL', 'KO'] fiscal 2024, calculation=compare
+01:00:57 INFO    [CMP-LOOK-08] src.multiagent.agents: research[ORCL] 16.2s: 1 tool calls, found {'cfo': 18673.0}
+01:01:05 INFO    [CMP-LOOK-08] src.multiagent.agents: research[KO] 24.6s: 1 tool calls, found {'cfo': 6805.0}
+01:01:05 INFO    [CMP-LOOK-08] src.multiagent.agents: route #2: quant (valid: quant; forced)
+01:01:53 WARNING [CMP-LOOK-08] src.multiagent.agents: quant stopped at the step limit
+01:01:53 INFO    [CMP-LOOK-08] src.multiagent.agents: quant 48.4s: values=None winner=None sandbox=not run
+01:01:53 WARNING [CMP-LOOK-08] src.multiagent.agents: audit failed: quant: the sandbox was not run successfully; quant: no value for ORCL; quant: no value for KO; quant: winner None but the highest is ORCL
+01:01:58 INFO    [CMP-LOOK-08] src.multiagent.agents: route #3: quant (valid: quant, write; LLM proposed research, OVERRIDDEN)
+01:02:42 WARNING [CMP-LOOK-08] src.multiagent.agents: quant stopped at the step limit
+01:02:42 INFO    [CMP-LOOK-08] src.multiagent.agents: quant 43.7s: values=None winner=None sandbox=not run
+01:02:42 WARNING [CMP-LOOK-08] src.multiagent.agents: audit failed: quant: the sandbox was not run successfully; quant: no value for ORCL; quant: no value for KO; quant: winner None but the highest is ORCL
+01:02:42 INFO    [CMP-LOOK-08] src.multiagent.agents: route #4: write (valid: write; forced)
+01:02:54 INFO    [CMP-LOOK-08] src.multiagent.agents: answer: winner ORCL, values {'ORCL': 18673.0, 'KO': 6805.0}, audit NOT passed
+01:02:54 INFO    [CMP-LOOK-08] __main__: CMP-LOOK-08: correct | values ✅ winner ✅ | structured ✅ | 136.9s
+01:02:57 INFO    [CMP-COMP-01] src.multiagent.agents: plan: ['TSLA', 'CSCO', 'TXN'] fiscal 2025, calculation=rd_intensity
+01:03:29 INFO    [CMP-COMP-01] src.multiagent.agents: research[TXN] 31.9s: 2 tool calls, found {'rd': 2083.0, 'revenue': 17682.0}
+01:03:41 INFO    [CMP-COMP-01] src.multiagent.agents: research[TSLA] 43.9s: 2 tool calls, found {'rd': 6411.0, 'revenue': 94827.0}
+01:03:52 INFO    [CMP-COMP-01] src.multiagent.agents: research[CSCO] 54.4s: 2 tool calls, found {'rd': 9300.0, 'revenue': 56654.0}
+01:03:52 INFO    [CMP-COMP-01] src.multiagent.agents: route #2: quant (valid: quant; forced)
+01:04:18 INFO    [CMP-COMP-01] src.multiagent.agents: quant 25.8s: values={'TSLA': 6.76, 'CSCO': 16.42, 'TXN': 11.78} winner=CSCO sandbox=SUCCESS: {'TSLA': 6.76, 'CSCO': 16.42, 'TXN': 11.78}
+01:04:18 INFO    [CMP-COMP-01] src.multiagent.agents: audit passed
+01:04:18 INFO    [CMP-COMP-01] src.multiagent.agents: route #3: write (valid: write; forced)
+01:04:29 INFO    [CMP-COMP-01] src.multiagent.agents: answer: winner CSCO, values {'TSLA': 6.76, 'CSCO': 16.42, 'TXN': 11.78}, audit passed
+01:04:29 INFO    [CMP-COMP-01] __main__: CMP-COMP-01: correct | values ✅ winner ✅ | structured ✅ | 94.7s
+01:04:32 INFO    [CMP-COMP-02] src.multiagent.agents: plan: ['ADBE', 'CRM', 'ABBV'] fiscal 2024, calculation=revenue_growth
+01:05:04 INFO    [CMP-COMP-02] src.multiagent.agents: research[ADBE] 32.3s: 2 tool calls, found {'revenue': 21505.0, 'revenue_prior': 19409.0}
+01:05:16 INFO    [CMP-COMP-02] src.multiagent.agents: research[CRM] 43.8s: 2 tool calls, found {'revenue': 34857.0, 'revenue_prior': 31352.0}
+01:05:29 INFO    [CMP-COMP-02] src.multiagent.agents: research[ABBV] 56.5s: 2 tool calls, found {'revenue': 56334.0, 'revenue_prior': 54318.0}
+01:05:29 INFO    [CMP-COMP-02] src.multiagent.agents: route #2: quant (valid: quant; forced)
+01:05:52 INFO    [CMP-COMP-02] src.multiagent.agents: quant 23.8s: values={'ADBE': 10.8, 'CRM': 11.18, 'ABBV': 3.71} winner=CRM sandbox=SUCCESS: {'ADBE': 10.8, 'CRM': 11.18, 'ABBV': 3.71}
+01:05:52 INFO    [CMP-COMP-02] src.multiagent.agents: audit passed
+01:05:52 INFO    [CMP-COMP-02] src.multiagent.agents: route #3: write (valid: write; forced)
+01:06:03 INFO    [CMP-COMP-02] src.multiagent.agents: answer: winner CRM, values {'ADBE': 10.8, 'CRM': 11.18, 'ABBV': 3.71}, audit passed
+01:06:03 INFO    [CMP-COMP-02] __main__: CMP-COMP-02: correct | values ✅ winner ✅ | structured ✅ | 94.2s
+01:06:06 INFO    [CMP-COMP-03] src.multiagent.agents: plan: ['AAPL', 'QCOM', 'MCD'] fiscal 2025, calculation=revenue_growth
+01:06:43 INFO    [CMP-COMP-03] src.multiagent.agents: research[MCD] 36.2s: 2 tool calls, found {'revenue': 26885.0, 'revenue_prior': 25920.0}
+01:06:55 INFO    [CMP-COMP-03] src.multiagent.agents: research[AAPL] 48.8s: 2 tool calls, found {'revenue': 416161.0, 'revenue_prior': 391035.0}
+01:07:04 INFO    [CMP-COMP-03] src.multiagent.agents: research[QCOM] 57.7s: 2 tool calls, found {'revenue': 44284.0, 'revenue_prior': 38962.0}
+01:07:04 INFO    [CMP-COMP-03] src.multiagent.agents: route #2: quant (valid: quant; forced)
+01:07:26 INFO    [CMP-COMP-03] src.multiagent.agents: quant 22.2s: values={'AAPL': 6.43, 'QCOM': 13.66, 'MCD': 3.72} winner=MCD sandbox=SUCCESS: {'AAPL': 6.43, 'QCOM': 13.66, 'MCD': 3.72}
+01:07:26 INFO    [CMP-COMP-03] src.multiagent.agents: audit passed
+01:07:26 INFO    [CMP-COMP-03] src.multiagent.agents: route #3: write (valid: write; forced)
+01:07:37 INFO    [CMP-COMP-03] src.multiagent.agents: answer: winner MCD, values {'AAPL': 6.43, 'QCOM': 13.66, 'MCD': 3.72}, audit passed
+01:07:37 INFO    [CMP-COMP-03] __main__: CMP-COMP-03: correct | values ✅ winner ✅ | structured ✅ | 94.5s
+01:07:41 INFO    [CMP-COMP-04] src.multiagent.agents: plan: ['GOOGL', 'QCOM', 'PFE'] fiscal 2025, calculation=rd_intensity
+01:08:15 INFO    [CMP-COMP-04] src.multiagent.agents: research[PFE] 33.7s: 2 tool calls, found {'rd': 10437.0, 'revenue': 62579.0}
+01:08:25 INFO    [CMP-COMP-04] src.multiagent.agents: research[GOOGL] 44.4s: 2 tool calls, found {'rd': 61087.0, 'revenue': 402836.0}
+01:08:36 INFO    [CMP-COMP-04] src.multiagent.agents: research[QCOM] 55.3s: 2 tool calls, found {'rd': 9042.0, 'revenue': 44284.0}
+01:08:36 INFO    [CMP-COMP-04] src.multiagent.agents: route #2: quant (valid: quant; forced)
+01:08:59 INFO    [CMP-COMP-04] src.multiagent.agents: quant 22.4s: values={'GOOGL': 15.16, 'QCOM': 20.42, 'PFE': 16.68} winner=QCOM sandbox=SUCCESS: {'GOOGL': 15.16, 'QCOM': 20.42, 'PFE': 16.68}
+01:08:59 INFO    [CMP-COMP-04] src.multiagent.agents: audit passed
+01:08:59 INFO    [CMP-COMP-04] src.multiagent.agents: route #3: write (valid: write; forced)
+01:09:10 INFO    [CMP-COMP-04] src.multiagent.agents: answer: winner QCOM, values {'GOOGL': 15.16, 'QCOM': 20.42, 'PFE': 16.68}, audit passed
+01:09:11 INFO    [CMP-COMP-04] __main__: CMP-COMP-04: correct | values ✅ winner ✅ | structured ✅ | 93.2s
+01:09:15 INFO    [CMP-COMP-05] src.multiagent.agents: plan: ['AAPL', 'ORCL', 'WMT'] fiscal 2024, calculation=operating_margin (LLM said compare, corrected by code)
+01:09:49 INFO    [CMP-COMP-05] src.multiagent.agents: research[AAPL] 33.9s: 2 tool calls, found {'operating_income': 123216.0, 'revenue': 391035.0}
+01:10:00 INFO    [CMP-COMP-05] src.multiagent.agents: research[ORCL] 45.2s: 2 tool calls, found {'operating_income': 15353.0, 'revenue': 52961.0}
+01:10:09 INFO    [CMP-COMP-05] src.multiagent.agents: research[WMT] 54.1s: 2 tool calls, found {'operating_income': 27012.0, 'revenue': 648125.0}
+01:10:09 INFO    [CMP-COMP-05] src.multiagent.agents: route #2: quant (valid: quant; forced)
+01:10:31 INFO    [CMP-COMP-05] src.multiagent.agents: quant 21.6s: values={'AAPL': 31.51, 'ORCL': 28.99, 'WMT': 4.17} winner=AAPL sandbox=SUCCESS: {'AAPL': 31.51, 'ORCL': 28.99, 'WMT': 4.17}
+01:10:31 INFO    [CMP-COMP-05] src.multiagent.agents: audit passed
+01:10:31 INFO    [CMP-COMP-05] src.multiagent.agents: route #3: write (valid: write; forced)
+01:10:43 INFO    [CMP-COMP-05] src.multiagent.agents: answer: winner AAPL, values {'AAPL': 31.51, 'ORCL': 28.99, 'WMT': 4.17}, audit passed
+01:10:43 INFO    [CMP-COMP-05] __main__: CMP-COMP-05: correct | values ✅ winner ✅ | structured ✅ | 92.4s
+01:10:47 INFO    [CMP-COMP-06] src.multiagent.agents: plan: ['NVDA', 'TXN', 'JNJ'] fiscal 2025, calculation=rd_intensity
+01:11:19 INFO    [CMP-COMP-06] src.multiagent.agents: research[JNJ] 31.9s: 2 tool calls, found {'rd': 14665.0, 'revenue': 94193.0}
+01:11:30 INFO    [CMP-COMP-06] src.multiagent.agents: research[NVDA] 43.6s: 2 tool calls, found {'rd': 12914.0, 'revenue': 130497.0}
+01:11:41 INFO    [CMP-COMP-06] src.multiagent.agents: research[TXN] 54.7s: 2 tool calls, found {'rd': 2083.0, 'revenue': 17682.0}
+01:11:41 INFO    [CMP-COMP-06] src.multiagent.agents: route #2: quant (valid: quant; forced)
+01:12:03 INFO    [CMP-COMP-06] src.multiagent.agents: quant 21.5s: values={'NVDA': 9.9, 'TXN': 11.78, 'JNJ': 15.57} winner=JNJ sandbox=SUCCESS: {'NVDA': 9.9, 'TXN': 11.78, 'JNJ': 15.57}
+01:12:03 INFO    [CMP-COMP-06] src.multiagent.agents: audit passed
+01:12:03 INFO    [CMP-COMP-06] src.multiagent.agents: route #3: write (valid: write; forced)
+01:12:14 INFO    [CMP-COMP-06] src.multiagent.agents: answer: winner JNJ, values {'NVDA': 9.9, 'TXN': 11.78, 'JNJ': 15.57}, audit passed
+01:12:14 INFO    [CMP-COMP-06] __main__: CMP-COMP-06: correct | values ✅ winner ✅ | structured ✅ | 91.1s
+01:12:18 INFO    [CMP-COMP-07] src.multiagent.agents: plan: ['CSCO', 'KO', 'PEP'] fiscal 2024, calculation=operating_margin (LLM said compare, corrected by code)
+01:12:54 INFO    [CMP-COMP-07] src.multiagent.agents: research[PEP] 35.7s: 2 tool calls, found {'operating_income': 12887.0, 'revenue': 91854.0}
+01:13:03 INFO    [CMP-COMP-07] src.multiagent.agents: research[KO] 44.6s: 2 tool calls, found {'operating_income': 9992.0, 'revenue': 47061.0}
+01:13:13 INFO    [CMP-COMP-07] src.multiagent.agents: research[CSCO] 54.9s: 2 tool calls, found {'operating_income': 12181.0, 'revenue': 53803.0}
+01:13:13 INFO    [CMP-COMP-07] src.multiagent.agents: route #2: quant (valid: quant; forced)
+01:13:31 INFO    [CMP-COMP-07] src.multiagent.agents: quant 18.1s: values={'CSCO': 22.64, 'KO': 21.23, 'PEP': 14.03} winner=PEP sandbox=SUCCESS: {'CSCO': 22.64, 'KO': 21.23, 'PEP': 14.03}
+01:13:31 INFO    [CMP-COMP-07] src.multiagent.agents: audit passed
+01:13:31 INFO    [CMP-COMP-07] src.multiagent.agents: route #3: write (valid: write; forced)
+01:13:41 INFO    [CMP-COMP-07] src.multiagent.agents: answer: winner PEP, values {'CSCO': 22.64, 'KO': 21.23, 'PEP': 14.03}, audit passed
+01:13:41 INFO    [CMP-COMP-07] __main__: CMP-COMP-07: correct | values ✅ winner ✅ | structured ✅ | 87.2s
+01:13:45 INFO    [CMP-COMP-08] src.multiagent.agents: plan: ['MSFT', 'ADBE', 'PEP'] fiscal 2024, calculation=gross_margin (LLM said compare, corrected by code)
+01:14:17 INFO    [CMP-COMP-08] src.multiagent.agents: research[MSFT] 31.7s: 2 tool calls, found {'gross_profit': 171008.0, 'revenue': 245122.0}
+01:14:26 INFO    [CMP-COMP-08] src.multiagent.agents: research[ADBE] 41.0s: 2 tool calls, found {'gross_profit': 19147.0, 'revenue': 21505.0}
+01:14:39 INFO    [CMP-COMP-08] src.multiagent.agents: research[PEP] 54.1s: 2 tool calls, found {'gross_profit': 50110.0, 'revenue': 91854.0}
+01:14:39 INFO    [CMP-COMP-08] src.multiagent.agents: route #2: quant (valid: quant; forced)
+01:15:03 INFO    [CMP-COMP-08] src.multiagent.agents: quant 24.0s: values={'MSFT': 69.76, 'ADBE': 89.04, 'PEP': 54.55} winner=ADBE sandbox=SUCCESS: {'MSFT': 69.76, 'ADBE': 89.04, 'PEP': 54.55}
+01:15:03 INFO    [CMP-COMP-08] src.multiagent.agents: audit passed
+01:15:03 INFO    [CMP-COMP-08] src.multiagent.agents: route #3: write (valid: write; forced)
+01:15:13 INFO    [CMP-COMP-08] src.multiagent.agents: answer: winner ADBE, values {'MSFT': 69.76, 'ADBE': 89.04, 'PEP': 54.55}, audit passed
+01:15:13 INFO    [CMP-COMP-08] __main__: CMP-COMP-08: correct | values ✅ winner ✅ | structured ✅ | 92.3s
+01:15:13 INFO    [CMP-COMP-08] __main__: summary:
+{
+  "system": "multiagent",
+  "questions": 16,
+  "accuracy": 1.0,
+  "values_correct": 1.0,
+  "winner_correct": 1.0,
+  "accuracy_lookup": 1.0,
+  "accuracy_computed": 1.0,
+  "avg_latency_sec": 77.65,
+  "structured_accuracy": 1.0,
+  "avg_supervisor_decisions": 3.0625,
+  "llm_routing_decisions": 1,
+  "guard_overrides": 1
+}
+venv/bin/python -m src.eval.compare_systems --system multiagent  49.32s user 9.82s system 4% cpu 20:44.08 total

@@ -1,0 +1,16 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git/
+.gitignore
+.env
+.pytest_cache/
+adapters/
+results/
+models/
+.DS_Store
+# Data stays on the host (mounted by docker-compose); keeps the build context small
+data/

@@ -1,0 +1,1353 @@
+[11/19/26 21:39:26] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:39:33] INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:39:33] INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:39:33] INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:39:33] INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:39:40] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:39:41] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:39:48] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:39:49] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 21:39:50] INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:39:52] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:40:09] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:40:32] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:40:33] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:40:35] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:40:47] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:40:56] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-LOOK-01: correct | values ✅ winner ✅ | structured ✅ | 115.3s
+[11/19/26 21:41:10] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:41:24] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:41:25] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:41:32] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:41:32] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:41:36] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:41:49] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:42:10] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:42:11] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:42:13] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:42:29] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:42:38] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-LOOK-02: correct | values ✅ winner ✅ | structured ✅ | 102.4s
+[11/19/26 21:42:53] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:43:07] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:43:08] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:43:15] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:43:16] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:43:20] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:43:33] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:43:51] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:43:52] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:43:54] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:44:08] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:44:17] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-LOOK-03: correct | values ✅ winner ✅ | structured ✅ | 100.0s
+[11/19/26 21:44:33] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:44:47] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:44:48] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:44:54] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:44:55] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:45:00] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:45:18] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:45:35] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:45:36] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:45:37] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:45:48] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:45:56] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-LOOK-04: correct | values ✅ winner ✅ | structured ✅ | 97.6s
+[11/19/26 21:46:11] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:46:24] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:46:25] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:46:33] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:46:36] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:46:38] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:46:52] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:47:09] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:47:10] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:47:11] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:47:23] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:47:33] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-LOOK-05: correct | values ✅ winner ✅ | structured ✅ | 96.8s
+[11/19/26 21:47:47] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:47:59] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:48:00] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:48:07] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:48:07] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:48:11] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:48:25] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:48:45] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:48:46] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:48:47] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:48:58] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:49:06] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-LOOK-06: correct | values ✅ winner ✅ | structured ✅ | 92.5s
+[11/19/26 21:49:20] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:49:32] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:49:33] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:49:39] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:49:39] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 21:49:40] INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:49:43] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:49:57] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:50:15] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:50:17] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:50:18] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:50:29] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:50:37] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-LOOK-07: correct | values ✅ winner ✅ | structured ✅ | 90.1s
+[11/19/26 21:50:50] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:51:01] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:51:02] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:51:08] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:51:09] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:51:12] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:51:25] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:51:42] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:51:43] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:51:44] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:51:58] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:51:59] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:52:13] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:52:14] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:52:27] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:52:27] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:52:54] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:53:03] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:53:15] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:53:15] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:53:16] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:53:31] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:53:32] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:53:45] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:53:45] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:53:58] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:53:58] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:54:18] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:54:26] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-LOOK-08: correct | values ✅ winner ✅ | structured ✅ | 234.2s
+[11/19/26 21:54:44] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:54:56] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:55:03] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 21:55:03] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:55:08] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:55:14] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 21:55:14] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:55:20] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:55:25] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 21:55:25] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:55:30] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:55:50] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:56:10] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:56:39] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:56:39] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:56:41] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:56:57] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:57:07] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-COMP-01: correct | values ✅ winner ✅ | structured ✅ | 160.5s
+[11/19/26 21:57:25] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:57:37] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:57:43] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 21:57:43] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:57:48] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:57:54] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 21:57:54] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:58:00] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:58:06] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 21:58:06] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 21:58:10] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:58:32] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+                    INFO     No device provided, using mps          model.py:199
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/modules.jso                
+                             n "HTTP/1.1 307 Temporary Redirect"                
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+                    WARNING  Warning: You are sending               _http.py:965
+                             unauthenticated requests to the HF                 
+                             Hub. Please set a HF_TOKEN to enable               
+                             higher rate limits and faster                      
+                             downloads.                                         
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-large-en-v1.5                
+                             /d4aa6901d3a41ba39fb536a557fa166f84                
+                             2b0e09/modules.json?%2FBAAI%2Fbge-l                
+                             arge-en-v1.5%2Fresolve%2Fmain%2Fmod                
+                             ules.json=&etag=%22952a9b81c0bfd998                
+                             00fabf352f69c7ccd46c5e43%22                        
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:58:33] INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/config_sent                
+                             ence_transformers.json "HTTP/1.1                   
+                             307 Temporary Redirect"                            
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-large-en-v1.5                
+                             /d4aa6901d3a41ba39fb536a557fa166f84                
+                             2b0e09/config_sentence_transformers                
+                             .json?%2FBAAI%2Fbge-large-en-v1.5%2                
+                             Fresolve%2Fmain%2Fconfig_sentence_t                
+                             ransformers.json=&etag=%22dcb0c0d97                
+                             d09b930d13600b1a773ddb27e441aab%22                 
+                             "HTTP/1.1 200 OK"                                  
+                    INFO     Loading SentenceTransformer model     model.py:1080
+                             from BAAI/bge-large-en-v1.5.                       
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/config_sent                
+                             ence_transformers.json "HTTP/1.1                   
+                             307 Temporary Redirect"                            
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-large-en-v1.5                
+                             /d4aa6901d3a41ba39fb536a557fa166f84                
+                             2b0e09/config_sentence_transformers                
+                             .json?%2FBAAI%2Fbge-large-en-v1.5%2                
+                             Fresolve%2Fmain%2Fconfig_sentence_t                
+                             ransformers.json=&etag=%22dcb0c0d97                
+                             d09b930d13600b1a773ddb27e441aab%22                 
+                             "HTTP/1.1 200 OK"                                  
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/README.md                  
+                             "HTTP/1.1 307 Temporary Redirect"                  
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-large-en-v1.5                
+                             /d4aa6901d3a41ba39fb536a557fa166f84                
+                             2b0e09/README.md?%2FBAAI%2Fbge-larg                
+                             e-en-v1.5%2Fresolve%2Fmain%2FREADME                
+                             .md=&etag=%22a5e0efee2a14fa9b1fea8a                
+                             3cbacdab8f153bc49f%22 "HTTP/1.1 200                
+                             OK"                                                
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/modules.jso                
+                             n "HTTP/1.1 307 Temporary Redirect"                
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-large-en-v1.5                
+                             /d4aa6901d3a41ba39fb536a557fa166f84                
+                             2b0e09/modules.json?%2FBAAI%2Fbge-l                
+                             arge-en-v1.5%2Fresolve%2Fmain%2Fmod                
+                             ules.json=&etag=%22952a9b81c0bfd998                
+                             00fabf352f69c7ccd46c5e43%22                        
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:58:34] INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/sentence_be                
+                             rt_config.json "HTTP/1.1 307                       
+                             Temporary Redirect"                                
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-large-en-v1.5                
+                             /d4aa6901d3a41ba39fb536a557fa166f84                
+                             2b0e09/sentence_bert_config.json?%2                
+                             FBAAI%2Fbge-large-en-v1.5%2Fresolve                
+                             %2Fmain%2Fsentence_bert_config.json                
+                             =&etag=%22ea85692bff64b0d1917833c31                
+                             ddbca8ab10f5455%22 "HTTP/1.1 200                   
+                             OK"                                                
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/adapter_con                
+                             fig.json "HTTP/1.1 404 Not Found"                  
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/config.json                
+                              "HTTP/1.1 307 Temporary Redirect"                 
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-large-en-v1.5                
+                             /d4aa6901d3a41ba39fb536a557fa166f84                
+                             2b0e09/config.json?%2FBAAI%2Fbge-la                
+                             rge-en-v1.5%2Fresolve%2Fmain%2Fconf                
+                             ig.json=&etag=%22ab101ed8d012df683e                
+                             f32f92cea51e97615ad07c%22 "HTTP/1.1                
+                             200 OK"                                            
+[11/19/26 21:58:35] INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/config.json                
+                              "HTTP/1.1 307 Temporary Redirect"                 
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-large-en-v1.5                
+                             /d4aa6901d3a41ba39fb536a557fa166f84                
+                             2b0e09/config.json?%2FBAAI%2Fbge-la                
+                             rge-en-v1.5%2Fresolve%2Fmain%2Fconf                
+                             ig.json=&etag=%22ab101ed8d012df683e                
+                             f32f92cea51e97615ad07c%22 "HTTP/1.1                
+                             200 OK"                                            
+Loading weights:   0%|          | 0/391 [00:00<?, ?it/s]Loading weights: 100%|██████████| 391/391 [00:00<00:00, 5705.96it/s]
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/processor_c                
+                             onfig.json "HTTP/1.1 404 Not Found"                
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/preprocesso                
+                             r_config.json "HTTP/1.1 404 Not                    
+                             Found"                                             
+[11/19/26 21:58:36] INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/video_prepr                
+                             ocessor_config.json "HTTP/1.1 404                  
+                             Not Found"                                         
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/preprocesso                
+                             r_config.json "HTTP/1.1 404 Not                    
+                             Found"                                             
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/tokenizer_c                
+                             onfig.json "HTTP/1.1 307 Temporary                 
+                             Redirect"                                          
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-large-en-v1.5                
+                             /d4aa6901d3a41ba39fb536a557fa166f84                
+                             2b0e09/tokenizer_config.json?%2FBAA                
+                             I%2Fbge-large-en-v1.5%2Fresolve%2Fm                
+                             ain%2Ftokenizer_config.json=&etag=%                
+                             2237fca74771bc76a8e01178ce3a6055a09                
+                             95f8093%22 "HTTP/1.1 200 OK"                       
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/config.json                
+                              "HTTP/1.1 307 Temporary Redirect"                 
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-large-en-v1.5                
+                             /d4aa6901d3a41ba39fb536a557fa166f84                
+                             2b0e09/config.json?%2FBAAI%2Fbge-la                
+                             rge-en-v1.5%2Fresolve%2Fmain%2Fconf                
+                             ig.json=&etag=%22ab101ed8d012df683e                
+                             f32f92cea51e97615ad07c%22 "HTTP/1.1                
+                             200 OK"                                            
+[11/19/26 21:58:37] INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/config.json                
+                              "HTTP/1.1 307 Temporary Redirect"                 
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-large-en-v1.5                
+                             /d4aa6901d3a41ba39fb536a557fa166f84                
+                             2b0e09/config.json?%2FBAAI%2Fbge-la                
+                             rge-en-v1.5%2Fresolve%2Fmain%2Fconf                
+                             ig.json=&etag=%22ab101ed8d012df683e                
+                             f32f92cea51e97615ad07c%22 "HTTP/1.1                
+                             200 OK"                                            
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/tokenizer_c                
+                             onfig.json "HTTP/1.1 307 Temporary                 
+                             Redirect"                                          
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-large-en-v1.5                
+                             /d4aa6901d3a41ba39fb536a557fa166f84                
+                             2b0e09/tokenizer_config.json?%2FBAA                
+                             I%2Fbge-large-en-v1.5%2Fresolve%2Fm                
+                             ain%2Ftokenizer_config.json=&etag=%                
+                             2237fca74771bc76a8e01178ce3a6055a09                
+                             95f8093%22 "HTTP/1.1 200 OK"                       
+                    INFO     HTTP Request: GET                   _client.py:1025
+                             https://huggingface.co/api/models/B                
+                             AAI/bge-large-en-v1.5/tree/main/add                
+                             itional_chat_templates?recursive=fa                
+                             lse&expand=false "HTTP/1.1 404 Not                 
+                             Found"                                             
+                    INFO     HTTP Request: GET                   _client.py:1025
+                             https://huggingface.co/api/models/B                
+                             AAI/bge-large-en-v1.5/tree/main?rec                
+                             ursive=true&expand=false "HTTP/1.1                 
+                             200 OK"                                            
+[11/19/26 21:58:38] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/1_Pooling/c                
+                             onfig.json "HTTP/1.1 307 Temporary                 
+                             Redirect"                                          
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-large-en-v1.5                
+                             /d4aa6901d3a41ba39fb536a557fa166f84                
+                             2b0e09/1_Pooling%2Fconfig.json?%2FB                
+                             AAI%2Fbge-large-en-v1.5%2Fresolve%2                
+                             Fmain%2F1_Pooling%2Fconfig.json=&et                
+                             ag=%229bd85925f325e25246d94c4918dc0                
+                             2ab98f2a1b7%22 "HTTP/1.1 200 OK"                   
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-lar                
+                             ge-en-v1.5/resolve/main/2_Normalize                
+                             /config.json "HTTP/1.1 404 Not                     
+                             Found"                                             
+                    INFO     HTTP Request: GET                   _client.py:1025
+                             https://huggingface.co/api/models/B                
+                             AAI/bge-large-en-v1.5 "HTTP/1.1 200                
+                             OK"                                                
+[11/19/26 21:58:42] INFO     Listing indexes                      indexes.py:195
+[11/19/26 21:58:44] INFO     HTTP Request: GET                   _client.py:1025
+                             https://api.pinecone.io/indexes                    
+                             "HTTP/1.1 200 OK"                                  
+                    INFO     Describing index                     indexes.py:231
+                             'doc-intelligence-edgar'                           
+                    INFO     HTTP Request: GET                   _client.py:1025
+                             https://api.pinecone.io/indexes/doc                
+                             -intelligence-edgar "HTTP/1.1 200                  
+                             OK"                                                
+                    INFO     Index client created for host       __init__.py:195
+                             https://doc-intelligence-edgar-78jk                
+                             oa7.svc.aped-4627-b74a.pinecone.io                 
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.05s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.05s/it]
+[11/19/26 21:58:47] INFO     Querying index with top_k=20        __init__.py:803
+[11/19/26 21:58:48] INFO     No device provided, using mps          model.py:199
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-rer                
+                             anker-large/resolve/main/modules.js                
+                             on "HTTP/1.1 404 Not Found"                        
+                    INFO     No modules.json found for             model.py:1069
+                             BAAI/bge-reranker-large, initializing              
+                             a new CrossEncoder model.                          
+[11/19/26 21:58:49] INFO     HTTP Request: GET                   _client.py:1025
+                             https://huggingface.co/api/models/B                
+                             AAI/bge-reranker-large "HTTP/1.1                   
+                             200 OK"                                            
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-rer                
+                             anker-large/resolve/main/config.jso                
+                             n "HTTP/1.1 307 Temporary Redirect"                
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-reranker-larg                
+                             e/55611d7bca2a7133960a6d3b71e083071                
+                             bbfc312/config.json?%2FBAAI%2Fbge-r                
+                             eranker-large%2Fresolve%2Fmain%2Fco                
+                             nfig.json=&etag=%22bb100d3a6586ee71                
+                             aed778b7566ccf68dd498947%22                        
+                             "HTTP/1.1 200 OK"                                  
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-rer                
+                             anker-large/resolve/main/adapter_co                
+                             nfig.json "HTTP/1.1 404 Not Found"                 
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-rer                
+                             anker-large/resolve/main/config.jso                
+                             n "HTTP/1.1 307 Temporary Redirect"                
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-reranker-larg                
+                             e/55611d7bca2a7133960a6d3b71e083071                
+                             bbfc312/config.json?%2FBAAI%2Fbge-r                
+                             eranker-large%2Fresolve%2Fmain%2Fco                
+                             nfig.json=&etag=%22bb100d3a6586ee71                
+                             aed778b7566ccf68dd498947%22                        
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:58:50] INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-rer                
+                             anker-large/resolve/main/config.jso                
+                             n "HTTP/1.1 307 Temporary Redirect"                
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-reranker-larg                
+                             e/55611d7bca2a7133960a6d3b71e083071                
+                             bbfc312/config.json?%2FBAAI%2Fbge-r                
+                             eranker-large%2Fresolve%2Fmain%2Fco                
+                             nfig.json=&etag=%22bb100d3a6586ee71                
+                             aed778b7566ccf68dd498947%22                        
+                             "HTTP/1.1 200 OK"                                  
+Loading weights:   0%|          | 0/393 [00:00<?, ?it/s]Loading weights: 100%|██████████| 393/393 [00:00<00:00, 7007.36it/s]
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-rer                
+                             anker-large/resolve/main/processor_                
+                             config.json "HTTP/1.1 404 Not                      
+                             Found"                                             
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-rer                
+                             anker-large/resolve/main/preprocess                
+                             or_config.json "HTTP/1.1 404 Not                   
+                             Found"                                             
+[11/19/26 21:58:51] INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-rer                
+                             anker-large/resolve/main/video_prep                
+                             rocessor_config.json "HTTP/1.1 404                 
+                             Not Found"                                         
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-rer                
+                             anker-large/resolve/main/preprocess                
+                             or_config.json "HTTP/1.1 404 Not                   
+                             Found"                                             
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-rer                
+                             anker-large/resolve/main/tokenizer_                
+                             config.json "HTTP/1.1 307 Temporary                
+                             Redirect"                                          
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-reranker-larg                
+                             e/55611d7bca2a7133960a6d3b71e083071                
+                             bbfc312/tokenizer_config.json?%2FBA                
+                             AI%2Fbge-reranker-large%2Fresolve%2                
+                             Fmain%2Ftokenizer_config.json=&etag                
+                             =%22059214673d9d6d2ee319411e2ffec8c                
+                             024b816d5%22 "HTTP/1.1 200 OK"                     
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-rer                
+                             anker-large/resolve/main/config.jso                
+                             n "HTTP/1.1 307 Temporary Redirect"                
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-reranker-larg                
+                             e/55611d7bca2a7133960a6d3b71e083071                
+                             bbfc312/config.json?%2FBAAI%2Fbge-r                
+                             eranker-large%2Fresolve%2Fmain%2Fco                
+                             nfig.json=&etag=%22bb100d3a6586ee71                
+                             aed778b7566ccf68dd498947%22                        
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:58:52] INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-rer                
+                             anker-large/resolve/main/config.jso                
+                             n "HTTP/1.1 307 Temporary Redirect"                
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-reranker-larg                
+                             e/55611d7bca2a7133960a6d3b71e083071                
+                             bbfc312/config.json?%2FBAAI%2Fbge-r                
+                             eranker-large%2Fresolve%2Fmain%2Fco                
+                             nfig.json=&etag=%22bb100d3a6586ee71                
+                             aed778b7566ccf68dd498947%22                        
+                             "HTTP/1.1 200 OK"                                  
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/BAAI/bge-rer                
+                             anker-large/resolve/main/tokenizer_                
+                             config.json "HTTP/1.1 307 Temporary                
+                             Redirect"                                          
+                    INFO     HTTP Request: HEAD                  _client.py:1025
+                             https://huggingface.co/api/resolve-                
+                             cache/models/BAAI/bge-reranker-larg                
+                             e/55611d7bca2a7133960a6d3b71e083071                
+                             bbfc312/tokenizer_config.json?%2FBA                
+                             AI%2Fbge-reranker-large%2Fresolve%2                
+                             Fmain%2Ftokenizer_config.json=&etag                
+                             =%22059214673d9d6d2ee319411e2ffec8c                
+                             024b816d5%22 "HTTP/1.1 200 OK"                     
+                    INFO     HTTP Request: GET                   _client.py:1025
+                             https://huggingface.co/api/models/B                
+                             AAI/bge-reranker-large/tree/main/ad                
+                             ditional_chat_templates?recursive=f                
+                             alse&expand=false "HTTP/1.1 404 Not                
+                             Found"                                             
+                    INFO     HTTP Request: GET                   _client.py:1025
+                             https://huggingface.co/api/models/B                
+                             AAI/bge-reranker-large/tree/main?re                
+                             cursive=true&expand=false "HTTP/1.1                
+                             200 OK"                                            
+[11/19/26 21:58:54] INFO     HTTP Request: GET                   _client.py:1025
+                             https://huggingface.co/api/models/B                
+                             AAI/bge-reranker-large "HTTP/1.1                   
+                             200 OK"                                            
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.56it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.56it/s]
+[11/19/26 21:59:08] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:59:47] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 21:59:51] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:00:01] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:00:07] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 22:00:07] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:00:14] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.55it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.55it/s]
+[11/19/26 22:00:15] INFO     Querying index with top_k=20        __init__.py:803
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.52it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.52it/s]
+[11/19/26 22:00:24] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:00:58] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:01:01] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:01:12] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:01:18] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 22:01:18] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:01:24] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.43it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.43it/s]
+[11/19/26 22:01:25] INFO     Querying index with top_k=20        __init__.py:803
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.52it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.52it/s]
+[11/19/26 22:01:35] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:02:10] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-COMP-02: WRONG   | values ❌ winner ❌ | structured ❌ | 287.4s
+[11/19/26 22:02:12] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:02:24] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:02:32] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 22:02:32] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:02:37] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:02:45] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 22:02:45] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:02:51] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:02:58] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 22:02:58] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:03:03] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:03:20] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:03:39] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:04:07] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:04:08] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:04:09] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:04:23] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:04:33] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-COMP-03: correct | values ✅ winner ✅ | structured ✅ | 158.0s
+[11/19/26 22:04:50] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:05:02] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:05:07] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 22:05:07] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:05:13] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:05:19] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 22:05:19] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:05:24] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:05:30] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 22:05:30] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:05:35] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:05:53] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:06:12] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:06:39] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:06:39] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:06:41] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:06:54] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:07:04] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-COMP-04: correct | values ✅ winner ✅ | structured ✅ | 152.8s
+[11/19/26 22:07:23] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:07:37] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:07:38] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:07:44] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:07:45] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:07:51] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:07:52] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:07:55] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:08:09] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:08:21] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:08:42] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:08:43] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:08:44] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:08:56] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:09:06] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-COMP-05: WRONG   | values ❌ winner ✅ | structured ❌ | 121.8s
+[11/19/26 22:09:25] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:09:37] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:09:43] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 22:09:43] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:09:48] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:09:54] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 22:09:54] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:09:59] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:10:05] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 22:10:05] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:10:10] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:10:26] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:10:47] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:11:16] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:11:17] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:11:18] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:11:31] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:11:43] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-COMP-06: correct | values ✅ winner ✅ | structured ✅ | 154.9s
+[11/19/26 22:12:00] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:12:13] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:12:14] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:12:19] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:12:20] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:12:27] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:12:27] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 22:12:28] INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:12:30] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:12:46] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:13:00] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:13:18] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:13:18] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:13:20] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:13:39] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:13:50] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-COMP-07: WRONG   | values ❌ winner ❌ | structured ❌ | 142.5s
+[11/19/26 22:14:23] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:14:39] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:14:41] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:14:47] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:14:48] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:14:54] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:14:54] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+[11/19/26 22:14:55] INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:14:58] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:15:10] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:15:23] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:15:44] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:15:45] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:15:46] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:16:05] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:16:06] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:16:29] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:16:29] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:16:51] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:16:51] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:17:11] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:17:22] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:17:38] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:17:39] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:17:40] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:17:58] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:17:58] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:18:21] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:18:22] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:18:44] INFO     Processing request of type            server.py:733
+                             CallToolRequest                                    
+                    INFO     Processing request of type            server.py:733
+                             ListToolsRequest                                   
+[11/19/26 22:18:44] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:18:54] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+[11/19/26 22:19:06] INFO     HTTP Request: POST                  _client.py:1740
+                             http://localhost:11434/api/chat                    
+                             "HTTP/1.1 200 OK"                                  
+CMP-COMP-08: WRONG   | values ❌ winner ❌ | structured ❌ | 309.3s
+{
+  "system": "multiagent",
+  "questions": 16,
+  "accuracy": 0.75,
+  "values_correct": 0.75,
+  "winner_correct": 0.8125,
+  "accuracy_lookup": 1.0,
+  "accuracy_computed": 0.5,
+  "avg_latency_sec": 151.00625,
+  "structured_accuracy": 0.75,
+  "avg_supervisor_decisions": 3.1875,
+  "llm_routing_decisions": 4,
+  "guard_overrides": 2
+}
+venv/bin/python -m src.eval.compare_systems --system $s  92.18s user 26.51s system 4% cpu 40:22.37 total

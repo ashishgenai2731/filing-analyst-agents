@@ -1,0 +1,77 @@
+from pydantic_settings import BaseSettings, SettingsConfigDict
+from typing import Optional
+
+
+class Settings(BaseSettings):
+    PROJECT_NAME: str = "Filing Analyst Agents"
+    PINECONE_API_KEY: str = ""
+    PINECONE_INDEX_NAME: str = "doc-intelligence"
+
+    # OPENAI_API_KEY , need this for evaluation ragas but this need credit in OPENAI
+    # so we can use local Ollama for evaluation ragas also, see the evaluate_ragas.py
+    # code , it is updated.
+    # we can add this as Optional.
+    OPENAI_API_KEY: Optional[str] = ""
+
+    # Model Configurations
+    EMBEDDING_MODEL_NAME: str = "BAAI/bge-large-en-v1.5"
+    RERANKER_MODEL_NAME: str = "BAAI/bge-reranker-large"
+    # Ollama model the agents call. After QLoRA training, import the adapter into Ollama
+    # (src/training/README.md) and set LLM_MODEL=mistral-fin in .env.
+    LLM_MODEL: str = "mistral"
+    # Where the Ollama server listens. Inside Docker, "localhost" is the container itself,
+    # so docker-compose.yml points this at the Mac: http://host.docker.internal:11434
+    OLLAMA_BASE_URL: str = "http://localhost:11434"
+
+    # ---- Multi-agent system (src/multiagent/) ----
+    # The supervisor and worker agents need reliable native tool calling. Mistral-7B wrote its tool
+    # calls as plain text in testing; Qwen 2.5 (7B) called tools correctly, in parallel, and stopped.
+    AGENT_MODEL: str = "qwen2.5:7b-instruct"
+    AGENT_MAX_HOPS: int = 12             # supervisor decisions per question (hard cap)
+    AGENT_MAX_RESEARCH_ROUNDS: int = 2   # re-research attempts per company after a failed audit
+    AGENT_RECURSION_LIMIT: int = 60      # LangGraph super-step cap (safety net under AGENT_MAX_HOPS)
+    CHECKPOINT_DB: str = "data/checkpoints.sqlite"   # LangGraph checkpointer for the API (threads, resume)
+    LOG_LEVEL: str = "INFO"             # DEBUG shows every tool call; see config/logging_config.py
+    # Base for QLoRA. Must be the same model Ollama serves as `mistral` (v0.3, vocab 32,768),
+    # or the adapter cannot be loaded on top of it.
+    BASE_MODEL_NAME: str = "mistralai/Mistral-7B-Instruct-v0.3"
+
+    # Chunking Parameters
+    CHUNK_SIZE: int = 512
+    CHUNK_OVERLAP: int = 50
+
+    # Local copy of every indexed chunk ({'id', 'text', 'metadata'} per line).
+    # BM25 counts words across every chunk, so it needs all texts in memory; Pinecone can't
+    # hand back all 98k texts per question (it returns text only for the matches it finds).
+    CORPUS_PATH: str = "data/edgar/corpus.jsonl"
+
+    # SEC EDGAR blocks requests whose User-Agent has no contact email ("Name email@domain").
+    # Set it in .env, not here.
+    SEC_USER_AGENT: str = ""
+    EDGAR_DIR: str = "data/edgar"
+    # One row per indexed filing (ticker, fiscal_year, ...); query filters are resolved against it
+    FILINGS_MANIFEST: str = "data/edgar/filings.jsonl"
+
+    # Hard wall-clock limit for one sandboxed Python execution over MCP
+    SANDBOX_TIMEOUT_SEC: float = 10.0
+
+    # Redis Cache Configuration
+    REDIS_HOST: str = "localhost"
+    REDIS_PORT: int = 6379
+
+    # Semantic cache for agent answers (src/cache/semantic_cache.py).
+    # 0.80 reuses 81% of rewordings of a cached question in scripts/calibrate_semantic_cache.py;
+    # wrong-year / wrong-line-item / segment / quarter questions are kept out by the scope key.
+    SEMANTIC_CACHE_THRESHOLD: float = 0.80
+    SEMANTIC_CACHE_TTL_SEC: int = 24 * 3600
+
+    # Use SettingsConfigDict for Pydantic V2 compatibility
+    # The extra="ignore" Parameter: By default, Pydantic V2 has strict validation. If it
+    # encounters any environment variable in your .env file or terminal session that isn't explicitly
+    # defined as a field in your Settings class, it raises an Extra inputs are not permitted validation error.
+    # Adding extra="ignore" tells Pydantic to silently skip any extra or undeclared environment variables
+    # instead of crashing your application.
+    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
+
+
+settings = Settings()

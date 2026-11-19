@@ -1,0 +1,760 @@
+{
+  "summary": {
+    "system": "multiagent",
+    "questions": 16,
+    "accuracy": 0.9375,
+    "values_correct": 1.0,
+    "winner_correct": 0.9375,
+    "accuracy_lookup": 0.875,
+    "accuracy_computed": 1.0,
+    "avg_latency_sec": 85.54374999999999,
+    "structured_accuracy": 1.0,
+    "avg_supervisor_decisions": 3.125,
+    "llm_routing_decisions": 2,
+    "guard_overrides": 2
+  },
+  "results": [
+    {
+      "id": "CMP-LOOK-01",
+      "type": "compare_lookup",
+      "question": "Which company had the higher operating income in fiscal 2024: Apple or Adobe? Give both figures in $ millions.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 48.4,
+      "report": "Apple (AAPL) reported an operating income of $123,216 million in fiscal 2024, while Adobe (ADBE) reported $6,741 million. Apple (AAPL) is the winner with the higher operating income. [Source: xbrl:0000320193-24-000123, xbrl:0000796343-25-000004]",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "AAPL": 1,
+        "ADBE": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[AAPL]:fetched",
+        "research[ADBE]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "compare",
+        "unit": "usd_millions",
+        "direction": "highest",
+        "values": {
+          "AAPL": 123216.0,
+          "ADBE": 6741.0
+        },
+        "winner": "AAPL",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000320193-24-000123",
+          "xbrl:0000796343-25-000004"
+        ]
+      }
+    },
+    {
+      "id": "CMP-LOOK-02",
+      "type": "compare_lookup",
+      "question": "Which company had the higher total revenue in fiscal 2025: Home Depot or Eli Lilly? Give both figures in $ millions.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 46.5,
+      "report": "In fiscal 2025, Home Depot reported a total revenue of $164,683 million, while Eli Lilly reported $65,179 million. Home Depot had the higher total revenue, winning with a significantly larger figure. [Source: xbrl:0000059478-26-000013, xbrl:0001628280-26-019436]",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "LLY": 1,
+        "HD": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[LLY]:fetched",
+        "research[HD]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "compare",
+        "unit": "usd_millions",
+        "direction": "highest",
+        "values": {
+          "LLY": 65179.0,
+          "HD": 164683.0
+        },
+        "winner": "HD",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000059478-26-000013",
+          "xbrl:0001628280-26-019436"
+        ]
+      }
+    },
+    {
+      "id": "CMP-LOOK-03",
+      "type": "compare_lookup",
+      "question": "Which company had the higher research and development expense in fiscal 2024: Microsoft or Qualcomm? Give both figures in $ millions.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 83.0,
+      "report": "Microsoft (MSFT) spent $29,510 million on research and development in fiscal 2024, while Qualcomm (QCOM) spent $8,893 million. Microsoft had the higher research and development expense, with Qualcomm coming in second. [Source: xbrl:0000804328-24-000075, xbrl:0000950170-24-087843]",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "MSFT": 1,
+        "QCOM": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[MSFT]:fetched",
+        "research[QCOM]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "compare",
+        "unit": "usd_millions",
+        "direction": "highest",
+        "values": {
+          "MSFT": 29510.0,
+          "QCOM": 8893.0
+        },
+        "winner": "MSFT",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000804328-24-000075",
+          "xbrl:0000950170-24-087843"
+        ]
+      }
+    },
+    {
+      "id": "CMP-LOOK-04",
+      "type": "compare_lookup",
+      "question": "Which company had the higher net income in fiscal 2024: Cisco or Texas Instruments? Give both figures in $ millions.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 53.7,
+      "report": "Cisco's net income in fiscal 2024 was $10,320 million, while Texas Instruments' net income was $4,799 million. Therefore, Cisco (CSCO) had the higher net income in fiscal 2024. [Source: xbrl:0000097476-25-000007, xbrl:0000858877-24-000017]",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "CSCO": 1,
+        "TXN": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[CSCO]:fetched",
+        "research[TXN]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "compare",
+        "unit": "usd_millions",
+        "direction": "highest",
+        "values": {
+          "CSCO": 10320.0,
+          "TXN": 4799.0
+        },
+        "winner": "CSCO",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000097476-25-000007",
+          "xbrl:0000858877-24-000017"
+        ]
+      }
+    },
+    {
+      "id": "CMP-LOOK-05",
+      "type": "compare_lookup",
+      "question": "Which company had the higher operating income in fiscal 2024: Apple or NVIDIA? Give both figures in $ millions.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 54.3,
+      "report": "Apple (AAPL) reported an operating income of $123,216 million in fiscal 2024, while NVIDIA (NVDA) reported $32,972 million. Apple (AAPL) was the winner with the higher operating income. [Source: xbrl:0000320193-24-000123, xbrl:0001045810-24-000029]",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "AAPL": 1,
+        "NVDA": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[AAPL]:fetched",
+        "research[NVDA]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "compare",
+        "unit": "usd_millions",
+        "direction": "highest",
+        "values": {
+          "AAPL": 123216.0,
+          "NVDA": 32972.0
+        },
+        "winner": "AAPL",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000320193-24-000123",
+          "xbrl:0001045810-24-000029"
+        ]
+      }
+    },
+    {
+      "id": "CMP-LOOK-06",
+      "type": "compare_lookup",
+      "question": "Which company had the higher net income in fiscal 2025: Merck or PepsiCo? Give both figures in $ millions.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 55.9,
+      "report": "Merck reported a net income of $18,254 million in fiscal 2025, while PepsiCo reported a net income of $8,240 million in the same period. Merck had the higher net income, with PepsiCo as the runner-up [Source: xbrl:0000077476-26-000007, xbrl:0000310158-26-000063].",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "MRK": 1,
+        "PEP": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[MRK]:fetched",
+        "research[PEP]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "compare",
+        "unit": "usd_millions",
+        "direction": "highest",
+        "values": {
+          "MRK": 18254.0,
+          "PEP": 8240.0
+        },
+        "winner": "MRK",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000077476-26-000007",
+          "xbrl:0000310158-26-000063"
+        ]
+      }
+    },
+    {
+      "id": "CMP-LOOK-07",
+      "type": "compare_lookup",
+      "question": "Which company had the higher net cash provided by operating activities in fiscal 2024: Adobe or AMD? Give both figures in $ millions.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 58.4,
+      "report": "Adobe had a net cash provided by operating activities of $8,056 million in fiscal 2024, while AMD reported $3,041 million. Adobe (ADBE) was the winner with the higher figure. [Source: xbrl:0000002488-25-000012, xbrl:0000796343-25-000004]",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "ADBE": 1,
+        "AMD": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[ADBE]:fetched",
+        "research[AMD]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "compare",
+        "unit": "usd_millions",
+        "direction": "highest",
+        "values": {
+          "ADBE": 8056.0,
+          "AMD": 3041.0
+        },
+        "winner": "ADBE",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000002488-25-000012",
+          "xbrl:0000796343-25-000004"
+        ]
+      }
+    },
+    {
+      "id": "CMP-LOOK-08",
+      "type": "compare_lookup",
+      "question": "Which company had the higher research and development expense in fiscal 2025: Apple or NVIDIA? Give both figures in $ millions.",
+      "values_correct": true,
+      "winner_correct": false,
+      "correct": false,
+      "latency_sec": 196.2,
+      "report": "According to the audited figures, Apple (AAPL) had a research and development expense of $34,550 million in fiscal 2025, while NVIDIA (NVDA) reported $12,914 million. However, the audit did not fully pass, with no values provided for both AAPL and NVDA, making it impossible to definitively determine a winner. Nonetheless, based on the available data, Apple (AAPL) would be the highest if the data were accurate. [Source: xbrl:0000320193-25-000079, xbrl:0001045810-25-000023; quant: the sandbox was not run successfully; quant: no value for AAPL; quant: no value for NVDA; quant: winner None but the highest is AAPL]",
+      "hops": 4,
+      "llm_decisions": 1,
+      "guard_overrides": 1,
+      "audit_passed": false,
+      "research_rounds": {
+        "AAPL": 1,
+        "NVDA": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[AAPL]:fetched",
+        "research[NVDA]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:failed",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:failed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "compare",
+        "unit": "usd_millions",
+        "direction": "highest",
+        "values": {
+          "AAPL": 34550.0,
+          "NVDA": 12914.0
+        },
+        "winner": "AAPL",
+        "audit_passed": false,
+        "sources": [
+          "xbrl:0000320193-25-000079",
+          "xbrl:0001045810-25-000023"
+        ]
+      }
+    },
+    {
+      "id": "CMP-COMP-01",
+      "type": "compare_computed",
+      "question": "Compare the revenue growth versus the prior fiscal year of McDonald's, PepsiCo and Qualcomm in fiscal 2024. Which company had the lowest? Give each in percent.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 94.7,
+      "report": "In fiscal 2024, Qualcomm reported a revenue growth of 8.77%, PepsiCo showed a growth of 0.42%, and McDonald's achieved a growth of 1.67%. PepsiCo (PEP) had the lowest revenue growth at 0.42% [Source: xbrl:0000063908-25-000012].",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "QCOM": 1,
+        "PEP": 1,
+        "MCD": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[QCOM]:fetched",
+        "research[PEP]:fetched",
+        "research[MCD]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "revenue_growth",
+        "unit": "percent",
+        "direction": "lowest",
+        "values": {
+          "QCOM": 8.77,
+          "PEP": 0.42,
+          "MCD": 1.67
+        },
+        "winner": "PEP",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000063908-25-000012",
+          "xbrl:0000077476-25-000007",
+          "xbrl:0000804328-24-000075"
+        ]
+      }
+    },
+    {
+      "id": "CMP-COMP-02",
+      "type": "compare_computed",
+      "question": "Compare the gross margin (gross profit / total revenue) of Apple, Salesforce and PepsiCo in fiscal 2024. Which company had the lowest? Give each in percent.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 94.6,
+      "report": "Apple (AAPL) had a gross margin of 46.21%, Salesforce (CRM) reported 75.50%, and PepsiCo (PEP) showed a gross margin of 54.55%. Apple (AAPL) had the lowest gross margin among the three companies in fiscal 2024. [Source: xbrl:0000077476-25-000007, xbrl:0000320193-24-000123, xbrl:0001108524-24-000005]",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "AAPL": 1,
+        "CRM": 1,
+        "PEP": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[AAPL]:fetched",
+        "research[CRM]:fetched",
+        "research[PEP]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "gross_margin",
+        "unit": "percent",
+        "direction": "lowest",
+        "values": {
+          "AAPL": 46.21,
+          "CRM": 75.5,
+          "PEP": 54.55
+        },
+        "winner": "AAPL",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000077476-25-000007",
+          "xbrl:0000320193-24-000123",
+          "xbrl:0001108524-24-000005"
+        ]
+      }
+    },
+    {
+      "id": "CMP-COMP-03",
+      "type": "compare_computed",
+      "question": "Compare the net margin (net income / total revenue) of Cisco, Pfizer and Texas Instruments in fiscal 2024. Which company had the lowest? Give each in percent.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 93.3,
+      "report": "In fiscal 2024, Cisco had a net margin of 19.18%, Texas Instruments achieved a net margin of 30.68%, and Pfizer recorded a net margin of 12.62%. Pfizer had the lowest net margin among the three companies. [Source: xbrl:0000078003-25-000054, xbrl:0000097476-25-000007, xbrl:0000858877-24-000017]",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "CSCO": 1,
+        "TXN": 1,
+        "PFE": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[CSCO]:fetched",
+        "research[TXN]:fetched",
+        "research[PFE]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "net_margin",
+        "unit": "percent",
+        "direction": "lowest",
+        "values": {
+          "CSCO": 19.18,
+          "TXN": 30.68,
+          "PFE": 12.62
+        },
+        "winner": "PFE",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000078003-25-000054",
+          "xbrl:0000097476-25-000007",
+          "xbrl:0000858877-24-000017"
+        ]
+      }
+    },
+    {
+      "id": "CMP-COMP-04",
+      "type": "compare_computed",
+      "question": "Compare the revenue growth versus the prior fiscal year of Johnson & Johnson, Qualcomm and Walmart in fiscal 2025. Which company had the lowest? Give each in percent.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 114.1,
+      "report": "In fiscal 2025, Qualcomm reported a revenue growth of 13.66%, Johnson & Johnson showed a growth of 6.05%, and Walmart experienced a growth of 5.07%. Among these, Walmart had the lowest revenue growth. However, it's important to note that the audit did not provide full value for Qualcomm [Source: xbrl:0000200406-26-000016] and Johnson & Johnson [Source: xbrl:0000804328-25-000085], with only partial figures available for Qualcomm's revenue growth.",
+      "hops": 4,
+      "llm_decisions": 1,
+      "guard_overrides": 1,
+      "audit_passed": false,
+      "research_rounds": {
+        "QCOM": 1,
+        "JNJ": 1,
+        "WMT": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[QCOM]:fetched",
+        "research[JNJ]:fetched",
+        "research[WMT]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:failed",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:failed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "revenue_growth",
+        "unit": "percent",
+        "direction": "lowest",
+        "values": {
+          "QCOM": 13.66,
+          "JNJ": 6.05,
+          "WMT": 5.07
+        },
+        "winner": "WMT",
+        "audit_passed": false,
+        "sources": [
+          "xbrl:0000104169-25-000021",
+          "xbrl:0000200406-26-000016",
+          "xbrl:0000804328-25-000085"
+        ]
+      }
+    },
+    {
+      "id": "CMP-COMP-05",
+      "type": "compare_computed",
+      "question": "Compare the operating margin (operating income / total revenue) of Adobe, Oracle and Qualcomm in fiscal 2025. Which company had the highest? Give each in percent.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 94.0,
+      "report": "In fiscal 2025, Adobe (ADBE) had an operating margin of 36.63%, Oracle (ORCL) had 30.80%, and Qualcomm (QCOM) had 27.90%. Adobe (ADBE) had the highest operating margin among the three. [Source: xbrl:0000796343-26-000003, xbrl:0000804328-25-000085, xbrl:0000950170-25-087926]",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "ADBE": 1,
+        "ORCL": 1,
+        "QCOM": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[ADBE]:fetched",
+        "research[ORCL]:fetched",
+        "research[QCOM]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "operating_margin",
+        "unit": "percent",
+        "direction": "highest",
+        "values": {
+          "ADBE": 36.63,
+          "ORCL": 30.8,
+          "QCOM": 27.9
+        },
+        "winner": "ADBE",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000796343-26-000003",
+          "xbrl:0000804328-25-000085",
+          "xbrl:0000950170-25-087926"
+        ]
+      }
+    },
+    {
+      "id": "CMP-COMP-06",
+      "type": "compare_computed",
+      "question": "Compare the R&D intensity (research and development expense / total revenue) of Cisco, Oracle and Qualcomm in fiscal 2025. Which company had the highest? Give each in percent.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 89.4,
+      "report": "In fiscal 2025, Oracle had an R&D intensity of 17.18%, Cisco had 16.42%, and Qualcomm had the highest at 20.42%. Qualcomm thus emerged as the winner with the highest R&D intensity among the three companies. [Source: xbrl:0000804328-25-000085, xbrl:0000858877-25-000111, xbrl:0000950170-25-087926]",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "ORCL": 1,
+        "CSCO": 1,
+        "QCOM": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[ORCL]:fetched",
+        "research[CSCO]:fetched",
+        "research[QCOM]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "rd_intensity",
+        "unit": "percent",
+        "direction": "highest",
+        "values": {
+          "ORCL": 17.18,
+          "CSCO": 16.42,
+          "QCOM": 20.42
+        },
+        "winner": "QCOM",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000804328-25-000085",
+          "xbrl:0000858877-25-000111",
+          "xbrl:0000950170-25-087926"
+        ]
+      }
+    },
+    {
+      "id": "CMP-COMP-07",
+      "type": "compare_computed",
+      "question": "Compare the net margin (net income / total revenue) of Coca-Cola, Oracle and Qualcomm in fiscal 2024. Which company had the highest? Give each in percent.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 93.6,
+      "report": "In fiscal 2024, Oracle had a net margin of 19.76%, Coca-Cola achieved a net margin of 22.59%, and Qualcomm boasted the highest net margin at 26.03%. Qualcomm (QCOM) emerged as the winner with the highest net margin among the three companies. [Source: xbrl:0000021344-25-000011, xbrl:0000804328-24-000075, xbrl:0000950170-24-075605]",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "ORCL": 1,
+        "QCOM": 1,
+        "KO": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[ORCL]:fetched",
+        "research[QCOM]:fetched",
+        "research[KO]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "net_margin",
+        "unit": "percent",
+        "direction": "highest",
+        "values": {
+          "ORCL": 19.76,
+          "QCOM": 26.03,
+          "KO": 22.59
+        },
+        "winner": "QCOM",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000021344-25-000011",
+          "xbrl:0000804328-24-000075",
+          "xbrl:0000950170-24-075605"
+        ]
+      }
+    },
+    {
+      "id": "CMP-COMP-08",
+      "type": "compare_computed",
+      "question": "Compare the revenue growth versus the prior fiscal year of Adobe, AMD and Eli Lilly in fiscal 2025. Which company had the highest? Give each in percent.",
+      "values_correct": true,
+      "winner_correct": true,
+      "correct": true,
+      "latency_sec": 98.6,
+      "report": "In fiscal 2025, Adobe's revenue growth was 10.53%, AMD's was 34.34%, and Eli Lilly's was 44.70%. Among these, Eli Lilly had the highest revenue growth at 44.70% [Source: xbrl:0000002488-26-000018, xbrl:0000059478-26-000013, xbrl:0000796343-26-000003].",
+      "hops": 3,
+      "llm_decisions": 0,
+      "guard_overrides": 0,
+      "audit_passed": true,
+      "research_rounds": {
+        "ADBE": 1,
+        "AMD": 1,
+        "LLY": 1
+      },
+      "agents": [
+        "supervisor:plan",
+        "research[ADBE]:fetched",
+        "research[AMD]:fetched",
+        "research[LLY]:fetched",
+        "supervisor:route",
+        "quant:computed",
+        "auditor:passed",
+        "supervisor:route",
+        "writer:wrote"
+      ],
+      "structured_correct": true,
+      "answer": {
+        "calculation": "revenue_growth",
+        "unit": "percent",
+        "direction": "highest",
+        "values": {
+          "ADBE": 10.53,
+          "AMD": 34.34,
+          "LLY": 44.7
+        },
+        "winner": "LLY",
+        "audit_passed": true,
+        "sources": [
+          "xbrl:0000002488-26-000018",
+          "xbrl:0000059478-26-000013",
+          "xbrl:0000796343-26-000003"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+venv/
+.env
+data/edgar/raw/
+data/edgar/facts/
+data/edgar/corpus.jsonl
+
+# Generated / machine-local files
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+.idea/
+models/
+
+# LangGraph thread checkpoints (local SQLite)
+data/checkpoints.sqlite*
