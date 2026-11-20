@@ -13,7 +13,8 @@ def route_audit(state: AgentState) -> str:
 
 
 def build_financial_agent_graph():
-    """Constructs and compiles the multi-agent state graph."""
+    """Constructs and compiles the v1 3-node workflow graph (retrieve -> compute -> audit, with retries).
+    The multi-agent system is src/multiagent/graph.py."""
     builder = StateGraph(AgentState)
 
     # Register graph nodes
